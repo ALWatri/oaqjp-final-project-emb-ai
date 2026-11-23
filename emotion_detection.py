@@ -6,7 +6,7 @@ import requests
 
 
 def emotion_detector(text_to_analyze):
-    """Analyze text and return emotion scores and dominant emotion."""
+    """Return emotion scores for the provided text."""
 
     url = (
         "https://sn-watson-emotion.labs.skills.network"
